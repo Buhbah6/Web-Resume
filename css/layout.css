@@ -71,6 +71,7 @@ header .banner-text h3 {
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
    font-weight: bold;
+   font-style: italic;
 }
 header .banner-text h3 span { 
    background-color: white;
@@ -297,7 +298,18 @@ ul#nav li.current a { color: #4251f5; }
 }
 
 #vanierLogo {
-   margin-bottom: 190px;
+   margin-bottom: 220px;
+}
+
+.work-logo {
+   width: 175px;
+   height: 150px;
+   border-radius: 100%;
+   margin-bottom: 60px;
+}
+
+#hydroLogo {
+   margin-top: 40px;
 }
 
 /*----------------------------------------------*/
@@ -344,86 +356,216 @@ ul#nav li.current a { color: #4251f5; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
+.java {
+  	width: 80%;
+  	-moz-animation: java 2s ease;
+  	-webkit-animation: java 2s ease;
+}
+.csharp {
+  	width: 85%;
+  	-moz-animation: csharp 2s ease;
+  	-webkit-animation: csharp 2s ease;
+}
+.python {
   	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+  	-moz-animation: python 2s ease;
+  	-webkit-animation: python 2s ease;
 }
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
+.php {
   	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+  	-moz-animation: php 2s ease;
+  	-webkit-animation: php 2s ease;
+}
+.sql {
+  	width: 80%;
+  	-moz-animation: sql 2s ease;
+  	-webkit-animation: sql 2s ease;
+}
+.git {
+  	width: 90%;
+  	-moz-animation: git 2s ease;
+  	-webkit-animation: git 2s ease;
+}
+.html {
+   width: 60%;
+   -moz-animation: html 2s ease;
+   -webkit-animation: html 2s ease;
 }
 .css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+   width: 60%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
 }
-.html5 {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+.javascript {
+   width: 40%;
+   -moz-animation: javascript 2s ease;
+   -webkit-animation: javascript 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.ms365 {
+   width: 100%;
+   -moz-animation: ms365 2s ease;
+   -webkit-animation: ms365 2s ease;
+}
+.os {
+   width: 90%;
+   -moz-animation: os 2s ease;
+   -webkit-animation: os 2s ease;
+}
+.repair {
+   width: 85%;
+   -moz-animation: repair 2s ease;
+   -webkit-animation: repair 2s ease;
+}
+.networking {
+   width: 70%;
+   -moz-animation: networking 2s ease;
+   -webkit-animation: networking 2s ease;
+}
+.iot {
+   width: 80%;
+   -moz-animation: iot 2s ease;
+   -webkit-animation: iot 2s ease;
+}
+.game {
+   width: 50%;
+   -moz-animation: game 2s ease;
+   -webkit-animation: game 2s ease;
+}
+.eh {
+   width: 55%;
+   -moz-animation: eh 2s ease;
+   -webkit-animation: eh 2s ease;
 }
 
-@-moz-keyframes photoshop {
+@-moz-keyframes java {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-moz-keyframes csharp {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+@-moz-keyframes python {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
+@-moz-keyframes php {
   0%   { width: 0px;  }
   100% { width: 50%;  }
+}
+@-moz-keyframes sql {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-moz-keyframes git {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-moz-keyframes html {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
 }
 @-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
 }
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
+@-moz-keyframes javascript {
+   0%   { width: 0px;  }
+   100% { width: 40%;  }
 }
-@-moz-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+@-moz-keyframes ms365 {
+   0%   { width: 0px;  }
+   100% { width: 100%;  }
+}
+@-moz-keyframes os {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+}
+@-moz-keyframes repair {
+   0%   { width: 0px;  }
+   100% { width: 85%;  }
+}
+@-moz-keyframes networking {
+   0%   { width: 0px;  }
+   100% { width: 70%;  }
+}
+@-moz-keyframes iot {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+}
+@-moz-keyframes game {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+}
+@-moz-keyframes eh {
+   0%   { width: 0px;  }
+   100% { width: 55%;  }
 }
 
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-webkit-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
+@-webkit-keyframes java {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+ @-webkit-keyframes csharp {
+   0%   { width: 0px;  }
+   100% { width: 85%;  }
+ }
+ @-webkit-keyframes python {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+ }
+ @-webkit-keyframes php {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-webkit-keyframes sql {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+ @-webkit-keyframes git {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
+ @-webkit-keyframes html {
+    0%   { width: 0px;  }
+    100% { width: 60%;  }
+ }
+ @-webkit-keyframes css {
+    0%   { width: 0px;  }
+    100% { width: 60%;  }
+ }
+ @-webkit-keyframes javascript {
+    0%   { width: 0px;  }
+    100% { width: 40%;  }
+ }
+ @-webkit-keyframes ms365 {
+    0%   { width: 0px;  }
+    100% { width: 100%;  }
+ }
+ @-webkit-keyframes os {
+    0%   { width: 0px;  }
+    100% { width: 90%;  }
+ }
+ @-webkit-keyframes repair {
+    0%   { width: 0px;  }
+    100% { width: 85%;  }
+ }
+ @-webkit-keyframes networking {
+    0%   { width: 0px;  }
+    100% { width: 70%;  }
+ }
+ @-webkit-keyframes iot {
+    0%   { width: 0px;  }
+    100% { width: 80%;  }
+ }
+ @-webkit-keyframes game {
+    0%   { width: 0px;  }
+    100% { width: 50%;  }
+ }
+ @-webkit-keyframes eh {
+    0%   { width: 0px;  }
+    100% { width: 55%;  }
+ }
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -440,7 +582,7 @@ ul#nav li.current a { color: #4251f5; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: black;
 }
 
 /* Portfolio Content */
@@ -595,6 +737,83 @@ ul#nav li.current a { color: #4251f5; }
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
    opacity: 0;
 }
+
+/* ------------------------------------------------------------------ */
+/* f. Services Section
+/* ------------------------------------------------------------------ */
+
+#services {
+   height: 650px;
+   padding-top: 40px;
+   background-color: #768294;
+}
+
+#header {
+   width: 100%;
+   height: 15%;
+   float: left;
+}
+
+#pcRepair, #tutoring {
+   width: 47%;
+   height: 80%;
+   float: left;
+   background-color: #d5e1f5;
+   border: 3px solid black;
+   margin-right: 20px;
+}
+
+#pcRepair {
+   margin-left: 2%;
+}
+
+
+#header h1 {
+   font: 30px/34px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: white;
+   text-align: center;
+   padding-top: 15px;
+}
+
+#pcRepair h1, #tutoring h1 {
+   font: 24px/28px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: black;
+   text-decoration: underline;
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 40px;
+}
+
+#pcRepair p, #tutoring p {
+   font: 18px/22px 'opensans-regular', sans-serif;
+   color: black;
+   text-align: center;
+   margin-top: 50px;
+   padding-left: 5px;
+   padding-right: 10px;
+}
+
+#pcRepair a, #tutoring a {
+   margin-top: 30px;
+   margin-left: 60px;
+   font: 18px/22px 'opensans-regular', sans-serif;
+   height: 50px;
+   width: 80%;
+   text-align: center;float: left;
+   
+}
+
+#tutoring a {
+   margin-top: 20px;
+   margin-left: 50px;
+   height: 50px;
+   width: 40%;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section
