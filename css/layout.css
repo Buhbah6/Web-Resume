@@ -240,7 +240,7 @@ ul#nav li.current a { color: #4251f5; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: #d9e8f6;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -283,6 +283,21 @@ ul#nav li.current a { color: #4251f5; }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+}
+
+.school-logo {
+   width: 150px;
+   height: 150px;
+   border-radius: 100%;
+   margin-bottom: 70px;
+}
+
+#concordiaLogo {
+   margin-top: 15px;
+}
+
+#vanierLogo {
+   margin-bottom: 190px;
 }
 
 /*----------------------------------------------*/
@@ -415,7 +430,7 @@ ul#nav li.current a { color: #4251f5; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #79cdfb;
    padding-top: 90px;
    padding-bottom: 60px;
 }
