@@ -802,6 +802,19 @@ properly.
 	text-align: center !important;
 }
 
+.roundedCorners {
+	width: 650px;
+	height: 1000px;
+   background-color: darkgray;
+	-moz-border-radius: 5%;
+	-webkit-border-radius: 5%;
+	border-radius: 5%;
+	overflow:hidden;
+	position:relative;
+   margin-top: 40px;
+   padding-left: 5px;
+}
+
 
 
 
