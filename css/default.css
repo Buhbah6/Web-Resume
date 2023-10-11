@@ -803,7 +803,7 @@ properly.
 }
 
 .roundedCorners {
-	width: 650px;
+	width: 100%;
 	height: 1000px;
    background-color: darkgray;
 	-moz-border-radius: 5%;
