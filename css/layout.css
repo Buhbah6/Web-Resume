@@ -393,17 +393,17 @@ ul#nav li.current a { color: #4251f5; }
   	-webkit-animation: git 2s ease;
 }
 .html {
-   width: 60%;
+   width: 80%;
    -moz-animation: html 2s ease;
    -webkit-animation: html 2s ease;
 }
 .css {
-   width: 60%;
+   width: 70%;
    -moz-animation: css 2s ease;
    -webkit-animation: css 2s ease;
 }
 .javascript {
-   width: 40%;
+   width: 65%;
    -moz-animation: javascript 2s ease;
    -webkit-animation: javascript 2s ease;
 }
@@ -433,12 +433,12 @@ ul#nav li.current a { color: #4251f5; }
    -webkit-animation: iot 2s ease;
 }
 .game {
-   width: 50%;
+   width: 60%;
    -moz-animation: game 2s ease;
    -webkit-animation: game 2s ease;
 }
 .eh {
-   width: 55%;
+   width: 65%;
    -moz-animation: eh 2s ease;
    -webkit-animation: eh 2s ease;
 }
@@ -459,11 +459,11 @@ ul#nav li.current a { color: #4251f5; }
 }
 @-moz-keyframes python {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 75%;  }
 }
 @-moz-keyframes php {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 70%;  }
 }
 @-moz-keyframes sql {
   0%   { width: 0px;  }
@@ -475,15 +475,15 @@ ul#nav li.current a { color: #4251f5; }
 }
 @-moz-keyframes html {
    0%   { width: 0px;  }
-   100% { width: 60%;  }
+   100% { width: 80%;  }
 }
 @-moz-keyframes css {
    0%   { width: 0px;  }
-   100% { width: 60%;  }
+   100% { width: 70%;  }
 }
 @-moz-keyframes javascript {
    0%   { width: 0px;  }
-   100% { width: 40%;  }
+   100% { width: 65%;  }
 }
 @-moz-keyframes ms365 {
    0%   { width: 0px;  }
@@ -507,15 +507,15 @@ ul#nav li.current a { color: #4251f5; }
 }
 @-moz-keyframes game {
    0%   { width: 0px;  }
-   100% { width: 50%;  }
+   100% { width: 60%;  }
 }
 @-moz-keyframes eh {
    0%   { width: 0px;  }
-   100% { width: 55%;  }
+   100% { width: 65%;  }
 }
 @-moz-keyframes aws {
    0%   { width: 0px;  }
-   100% { width: 25%;  }
+   100% { width: 45%;  }
 }
 
 @-webkit-keyframes java {
@@ -528,11 +528,11 @@ ul#nav li.current a { color: #4251f5; }
  }
  @-webkit-keyframes python {
    0%   { width: 0px;  }
-   100% { width: 60%;  }
+   100% { width: 75%;  }
  }
  @-webkit-keyframes php {
    0%   { width: 0px;  }
-   100% { width: 50%;  }
+   100% { width: 70%;  }
  }
  @-webkit-keyframes sql {
    0%   { width: 0px;  }
@@ -544,15 +544,15 @@ ul#nav li.current a { color: #4251f5; }
  }
  @-webkit-keyframes html {
     0%   { width: 0px;  }
-    100% { width: 60%;  }
+    100% { width: 80%;  }
  }
  @-webkit-keyframes css {
     0%   { width: 0px;  }
-    100% { width: 60%;  }
+    100% { width: 70%;  }
  }
  @-webkit-keyframes javascript {
     0%   { width: 0px;  }
-    100% { width: 40%;  }
+    100% { width: 65%;  }
  }
  @-webkit-keyframes ms365 {
     0%   { width: 0px;  }
@@ -576,15 +576,15 @@ ul#nav li.current a { color: #4251f5; }
  }
  @-webkit-keyframes game {
     0%   { width: 0px;  }
-    100% { width: 50%;  }
+    100% { width: 60%;  }
  }
  @-webkit-keyframes eh {
     0%   { width: 0px;  }
-    100% { width: 55%;  }
+    100% { width: 65%;  }
  }
  @-webkit-keyframes aws {
    0%   { width: 0px;  }
-   100% { width: 25%;  }
+   100% { width: 40%;  }
 }
 
 /* ------------------------------------------------------------------ */
