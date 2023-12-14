@@ -496,13 +496,21 @@ ul#nav li.current a {
 }
 
 .css {
+<<<<<<< HEAD
    width: 80%;
+=======
+   width: 70%;
+>>>>>>> 56eeffe3297d990631593d68933a0c0984f5b8e9
    -moz-animation: css 2s ease;
    -webkit-animation: css 2s ease;
 }
 
 .javascript {
+<<<<<<< HEAD
    width: 70%;
+=======
+   width: 65%;
+>>>>>>> 56eeffe3297d990631593d68933a0c0984f5b8e9
    -moz-animation: javascript 2s ease;
    -webkit-animation: javascript 2s ease;
 }
@@ -568,13 +576,13 @@ ul#nav li.current a {
 }
 
 .game {
-   width: 50%;
+   width: 60%;
    -moz-animation: game 2s ease;
    -webkit-animation: game 2s ease;
 }
 
 .eh {
-   width: 55%;
+   width: 65%;
    -moz-animation: eh 2s ease;
    -webkit-animation: eh 2s ease;
 }
@@ -606,6 +614,7 @@ ul#nav li.current a {
 }
 
 @-moz-keyframes python {
+<<<<<<< HEAD
    0% {
       width: 0px;
    }
@@ -613,9 +622,14 @@ ul#nav li.current a {
    100% {
       width: 90%;
    }
+=======
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+>>>>>>> 56eeffe3297d990631593d68933a0c0984f5b8e9
 }
 
 @-moz-keyframes php {
+<<<<<<< HEAD
    0% {
       width: 0px;
    }
@@ -623,6 +637,10 @@ ul#nav li.current a {
    100% {
       width: 70%;
    }
+=======
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+>>>>>>> 56eeffe3297d990631593d68933a0c0984f5b8e9
 }
 
 @-moz-keyframes cplusplus {
@@ -666,6 +684,7 @@ ul#nav li.current a {
 }
 
 @-moz-keyframes html {
+<<<<<<< HEAD
    0% {
       width: 0px;
    }
@@ -673,9 +692,14 @@ ul#nav li.current a {
    100% {
       width: 80%;
    }
+=======
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+>>>>>>> 56eeffe3297d990631593d68933a0c0984f5b8e9
 }
 
 @-moz-keyframes css {
+<<<<<<< HEAD
    0% {
       width: 0px;
    }
@@ -683,9 +707,14 @@ ul#nav li.current a {
    100% {
       width: 80%;
    }
+=======
+   0%   { width: 0px;  }
+   100% { width: 70%;  }
+>>>>>>> 56eeffe3297d990631593d68933a0c0984f5b8e9
 }
 
 @-moz-keyframes javascript {
+<<<<<<< HEAD
    0% {
       width: 0px;
    }
@@ -693,6 +722,10 @@ ul#nav li.current a {
    100% {
       width: 70%;
    }
+=======
+   0%   { width: 0px;  }
+   100% { width: 65%;  }
+>>>>>>> 56eeffe3297d990631593d68933a0c0984f5b8e9
 }
 
 @-moz-keyframes bootstrap {
@@ -796,6 +829,7 @@ ul#nav li.current a {
 }
 
 @-moz-keyframes game {
+<<<<<<< HEAD
    0% {
       width: 0px;
    }
@@ -803,9 +837,14 @@ ul#nav li.current a {
    100% {
       width: 50%;
    }
+=======
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+>>>>>>> 56eeffe3297d990631593d68933a0c0984f5b8e9
 }
 
 @-moz-keyframes eh {
+<<<<<<< HEAD
    0% {
       width: 0px;
    }
@@ -813,9 +852,14 @@ ul#nav li.current a {
    100% {
       width: 55%;
    }
+=======
+   0%   { width: 0px;  }
+   100% { width: 65%;  }
+>>>>>>> 56eeffe3297d990631593d68933a0c0984f5b8e9
 }
 
 @-moz-keyframes aws {
+<<<<<<< HEAD
    0% {
       width: 0px;
    }
@@ -1063,6 +1107,79 @@ ul#nav li.current a {
    100% {
       width: 40%;
    }
+=======
+   0%   { width: 0px;  }
+   100% { width: 45%;  }
+}
+
+@-webkit-keyframes java {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+ @-webkit-keyframes csharp {
+   0%   { width: 0px;  }
+   100% { width: 85%;  }
+ }
+ @-webkit-keyframes python {
+   0%   { width: 0px;  }
+   100% { width: 75%;  }
+ }
+ @-webkit-keyframes php {
+   0%   { width: 0px;  }
+   100% { width: 70%;  }
+ }
+ @-webkit-keyframes sql {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+ @-webkit-keyframes git {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
+ @-webkit-keyframes html {
+    0%   { width: 0px;  }
+    100% { width: 80%;  }
+ }
+ @-webkit-keyframes css {
+    0%   { width: 0px;  }
+    100% { width: 70%;  }
+ }
+ @-webkit-keyframes javascript {
+    0%   { width: 0px;  }
+    100% { width: 65%;  }
+ }
+ @-webkit-keyframes ms365 {
+    0%   { width: 0px;  }
+    100% { width: 100%;  }
+ }
+ @-webkit-keyframes os {
+    0%   { width: 0px;  }
+    100% { width: 90%;  }
+ }
+ @-webkit-keyframes repair {
+    0%   { width: 0px;  }
+    100% { width: 85%;  }
+ }
+ @-webkit-keyframes networking {
+    0%   { width: 0px;  }
+    100% { width: 70%;  }
+ }
+ @-webkit-keyframes iot {
+    0%   { width: 0px;  }
+    100% { width: 80%;  }
+ }
+ @-webkit-keyframes game {
+    0%   { width: 0px;  }
+    100% { width: 60%;  }
+ }
+ @-webkit-keyframes eh {
+    0%   { width: 0px;  }
+    100% { width: 65%;  }
+ }
+ @-webkit-keyframes aws {
+   0%   { width: 0px;  }
+   100% { width: 40%;  }
+>>>>>>> 56eeffe3297d990631593d68933a0c0984f5b8e9
 }
 
 /* ------------------------------------------------------------------ */
