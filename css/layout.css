@@ -371,6 +371,7 @@ ul#nav li.current a {
 }
 
 #vanierLogo {
+   margin-top: 100px;
    margin-bottom: 220px;
 }
 
@@ -387,6 +388,11 @@ ul#nav li.current a {
 
 #hrhsLogoW {
    margin-top: 50px;
+}
+
+#hydroLogo {
+   margin-bottom: 50px;
+
 }
 
 
@@ -466,9 +472,15 @@ ul#nav li.current a {
 }
 
 .cplusplus {
-   width: 20%;
+   width: 50%;
    -moz-animation: cplusplus 2s ease;
    -webkit-animation: cplusplus 2s ease;
+}
+
+.flutter {
+   width: 30%;
+   -moz-animation: flutter 2s ease;
+   -webkit-animation: flutter 2s ease;
 }
 
 .rust {
@@ -632,7 +644,17 @@ ul#nav li.current a {
    }
 
    100% {
-      width: 20%;
+      width: 50%;
+   }
+}
+
+@-moz-keyframes flutter {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 30%;
    }
 }
 
@@ -873,9 +895,20 @@ ul#nav li.current a {
    }
 
    100% {
-      width: 20%;
+      width: 50%;
    }
 }
+
+@-webkit-keyframes flutter {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 30%;
+   }
+}
+
 
 @-webkit-keyframes rust {
    0% {
@@ -1084,6 +1117,8 @@ ul#nav li.current a {
    text-align: center;
    margin-bottom: 48px;
    color: black;
+   margin-left: 10%;
+   margin-right: 10%;
 }
 
 /* Portfolio Content */
@@ -1299,11 +1334,11 @@ ul#nav li.current a {
    border: 3px solid black;
    display: inline-block;
    overflow: hidden;
-   margin: 2%;
+   margin: 2.4%;
    padding: 2%;
 }
 
-@media screen and (max-width: 531px) {
+@media screen and (max-width: 530px) {
    #services {
       display: flex;
       flex-flow: column;
@@ -1392,6 +1427,11 @@ ul#nav li.current a {
    background: #212121;
    padding-top: 66px;
    padding-bottom: 48px;
+   text-align: center;
+}
+
+#call-to-action .row {
+   width: 50%;
 }
 
 #call-to-action h1 {
