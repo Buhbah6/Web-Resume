@@ -579,6 +579,12 @@ ul#nav li.current a {
    -webkit-animation: iot 2s ease;
 }
 
+.firebase {
+   width: 70%;
+   -moz-animation: firebase 2s ease;
+   -webkit-animation: firebase 2s ease;
+}
+
 .game {
    width: 60%;
    -moz-animation: game 2s ease;
@@ -816,6 +822,16 @@ ul#nav li.current a {
 
    100% {
       width: 80%;
+   }
+}
+
+@-moz-keyframes firebase {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 70%;
    }
 }
 
@@ -1067,6 +1083,16 @@ ul#nav li.current a {
 
    100% {
       width: 80%;
+   }
+}
+
+@-webkit-keyframes firebase {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 70%;
    }
 }
 
