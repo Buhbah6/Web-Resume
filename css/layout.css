@@ -258,8 +258,9 @@ ul#nav li.current a {
 #about .profile-pic {
    position: relative;
    width: 220px;
-   height: 220px;
+   height: 280px;
    border-radius: 100%;
+   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.859), 0 18px 25px 0 rgba(6, 6, 6, 0.744);
 }
 
 #about .contact-details {
@@ -357,22 +358,6 @@ ul#nav li.current a {
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
-}
-
-.school-logo {
-   width: 150px;
-   height: 150px;
-   border-radius: 100%;
-   margin-bottom: 70px;
-}
-
-#concordiaLogo {
-   margin-top: 15px;
-}
-
-#vanierLogo {
-   margin-top: 100px;
-   margin-bottom: 220px;
 }
 
 #flossLogo {
