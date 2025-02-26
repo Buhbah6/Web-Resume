@@ -258,9 +258,9 @@ ul#nav li.current a {
 #about .profile-pic {
    position: relative;
    width: 220px;
-   height: 280px;
+   height: 300px;
    border-radius: 100%;
-   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.859), 0 18px 25px 0 rgba(6, 6, 6, 0.744);
+   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.859), 0 9px 12px 0 rgba(6, 6, 6, 0.744);
 }
 
 #about .contact-details {
@@ -292,15 +292,22 @@ ul#nav li.current a {
 }
 
 
+
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
-
 #resume {
    background: #d9e8f6;
    padding-top: 90px;
-   padding-bottom: 72px;
    overflow: hidden;
+}
+
+#resume .main-col {
+   width: 100%;
+}
+
+#resume p {
+   margin-bottom: 4%;
 }
 
 #resume a,
@@ -328,56 +335,66 @@ ul#nav li.current a {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
+#resume .row {
+   display: flex;
+   flex-direction: column;
+}
+
 #resume .header-col {
-   padding-top: 9px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 20px;
 }
 
-#resume .main-col {
-   padding-right: 10%;
+#resume .header-col h1 {
+   margin-bottom: 20px;
 }
 
-.education,
-.work {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+.education-item, .work-item, .experience-item {
+   display: flex;
+   align-items: flex-start;
+   margin-bottom: 20px;
+   flex-wrap: wrap;
+   justify-content: center; /* Center the items horizontally */
 }
 
-#resume .info {
-   font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
-   margin-bottom: 18px;
-   margin-top: 9px;
+.education-image, .work-image, .experience-image {
+   flex: 0 0 150px; /* Adjust the width as needed */
+   margin-right: 4em;
+   margin-left: 2em;
+   border-radius: 50%; /* Make the images round */
+   width: 150px; /* Set identical dimensions */
+   height: 150px; /* Set identical dimensions */
+   overflow: hidden; /* Ensure the image fits within the round shape */
 }
 
-#resume .info span {
-   margin-right: 5px;
-   margin-left: 5px;
+.education-text, .work-text, .experience-text {
+   flex: 1;
 }
 
-#resume .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
-   margin-top: 6px;
-}
-
-#flossLogo {
-   margin-bottom: 270px;
-}
-
-.work-logo {
+.school-logo, .work-logo {
    width: 175px;
    height: 150px;
    border-radius: 100%;
-   margin-bottom: 60px;
+   object-fit: cover;
 }
 
-#hrhsLogoW {
-   margin-top: 50px;
-}
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+   .education-item, .work-item, .experience-item {
+      flex-direction: column;
+      align-items: center;
+   }
 
-#hydroLogo {
-   margin-bottom: 50px;
+   .education-image, .work-image, .experience-image {
+      margin-right: 0;
+      margin-bottom: 20px;
+   }
 
+   .education-text, .work-text, .experience-text {
+      text-align: center;
+   }
 }
 
 
@@ -439,7 +456,7 @@ ul#nav li.current a {
 }
 
 .csharp {
-   width: 90%;
+   width: 80%;
    -moz-animation: csharp 2s ease;
    -webkit-animation: csharp 2s ease;
 }
@@ -457,13 +474,13 @@ ul#nav li.current a {
 }
 
 .cplusplus {
-   width: 50%;
+   width: 80%;
    -moz-animation: cplusplus 2s ease;
    -webkit-animation: cplusplus 2s ease;
 }
 
 .flutter {
-   width: 30%;
+   width: 60%;
    -moz-animation: flutter 2s ease;
    -webkit-animation: flutter 2s ease;
 }
@@ -472,6 +489,12 @@ ul#nav li.current a {
    width: 10%;
    -moz-animation: rust 2s ease;
    -webkit-animation: rust 2s ease;
+}
+
+.dart {
+   width: 70%;
+   -moz-animation: dart 2s ease;
+   -webkit-animation: dart 2s ease;
 }
 
 .sql {
@@ -499,7 +522,7 @@ ul#nav li.current a {
 }
 
 .javascript {
-   width: 70%;
+   width: 90%;
    -moz-animation: javascript 2s ease;
    -webkit-animation: javascript 2s ease;
 }
@@ -511,15 +534,21 @@ ul#nav li.current a {
 }
 
 .typescript {
-   width: 60%;
+   width: 80%;
    -moz-animation: typescript 2s ease;
    -webkit-animation: typescript 2s ease;
 }
 
 .react {
-   width: 40%;
+   width: 60%;
    -moz-animation: react 2s ease;
    -webkit-animation: react 2s ease;
+}
+
+.angular {
+   width: 70%;
+   -moz-animation: angular 2s ease;
+   -webkit-animation: angular 2s ease;
 }
 
 .api {
@@ -571,7 +600,7 @@ ul#nav li.current a {
 }
 
 .game {
-   width: 60%;
+   width: 70%;
    -moz-animation: game 2s ease;
    -webkit-animation: game 2s ease;
 }
@@ -586,6 +615,24 @@ ul#nav li.current a {
    width: 40%;
    -moz-animation: aws 2s ease;
    -webkit-animation: aws 2s ease;
+}
+
+.logic {
+   width: 75%;
+   -moz-animation: logic 2s ease;
+   -webkit-animation: logic 2s ease;
+}
+
+.modeling {
+   width: 75%;
+   -moz-animation: modeling 2s ease;
+   -webkit-animation: modeling 2s ease;
+}
+
+.printing {
+   width: 90%;
+   -moz-animation: printing 2s ease;
+   -webkit-animation: printing 2s ease;
 }
 
 @-moz-keyframes java {
@@ -604,7 +651,7 @@ ul#nav li.current a {
    }
 
    100% {
-      width: 90%;
+      width: 80%;
    }
 }
 
@@ -635,7 +682,7 @@ ul#nav li.current a {
    }
 
    100% {
-      width: 50%;
+      width: 80%;
    }
 }
 
@@ -645,7 +692,17 @@ ul#nav li.current a {
    }
 
    100% {
-      width: 30%;
+      width: 70%;
+   }
+}
+
+@-moz-keyframes dart {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 80%;
    }
 }
 
@@ -706,7 +763,7 @@ ul#nav li.current a {
    }
 
    100% {
-      width: 70%;
+      width: 90%;
    }
 }
 
@@ -726,7 +783,7 @@ ul#nav li.current a {
    }
 
    100% {
-      width: 60%;
+      width: 90%;
    }
 }
 
@@ -736,7 +793,17 @@ ul#nav li.current a {
    }
 
    100% {
-      width: 40%;
+      width: 60%;
+   }
+}
+
+@-moz-keyframes angular {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 70%;
    }
 }
 
@@ -826,7 +893,7 @@ ul#nav li.current a {
    }
 
    100% {
-      width: 60%;
+      width: 70%;
    }
 }
 
@@ -850,6 +917,36 @@ ul#nav li.current a {
    }
 }
 
+@-moz-keyframes logic {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 75%;
+   }
+}
+
+@-moz-keyframes modeling {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 75%;
+   }
+}
+
+@-moz-keyframes printing {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 90%;
+   }
+}
+
 @-webkit-keyframes java {
    0% {
       width: 0px;
@@ -866,7 +963,7 @@ ul#nav li.current a {
    }
 
    100% {
-      width: 90%;
+      width: 80%;
    }
 }
 
@@ -896,7 +993,17 @@ ul#nav li.current a {
    }
 
    100% {
-      width: 50%;
+      width: 80%;
+   }
+}
+
+@-webkit-keyframes dart {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 70%;
    }
 }
 
@@ -906,7 +1013,7 @@ ul#nav li.current a {
    }
 
    100% {
-      width: 30%;
+      width: 60%;
    }
 }
 
@@ -967,7 +1074,7 @@ ul#nav li.current a {
    }
 
    100% {
-      width: 70%;
+      width: 90%;
    }
 }
 
@@ -987,7 +1094,7 @@ ul#nav li.current a {
    }
 
    100% {
-      width: 60%;
+      width: 80%;
    }
 }
 
@@ -997,7 +1104,17 @@ ul#nav li.current a {
    }
 
    100% {
-      width: 40%;
+      width: 60%;
+   }
+}
+
+@-webkit-keyframes angular {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 70%;
    }
 }
 
@@ -1087,7 +1204,7 @@ ul#nav li.current a {
    }
 
    100% {
-      width: 60%;
+      width: 70%;
    }
 }
 
@@ -1108,6 +1225,36 @@ ul#nav li.current a {
 
    100% {
       width: 40%;
+   }
+}
+
+@-webkit-keyframes logic {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 75%;
+   }
+}
+
+@-webkit-keyframes modeling {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 75%;
+   }
+}
+
+@-webkit-keyframes printing {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 90%;
    }
 }
 
@@ -1711,6 +1858,61 @@ call-to-action .button {
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
 
+#contactForm {
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
+
+#contactForm fieldset {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+#contactForm .form-left {
+   flex: 1;
+   min-width: 300px;
+}
+
+#contactForm .form-right {
+   flex: 2;
+   min-width: 300px;
+   margin-left: 20px;
+}
+
+#contactForm .form-submit {
+   width: 100%;
+   text-align: left;
+   margin-top: 20px;
+}
+
+#contactForm label {
+   display: block;
+   margin-bottom: 5px;
+}
+
+#contactForm input,
+#contactForm textarea {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+#contactForm .submit {
+   background-color: #333;
+   color: #fff;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+#contactForm .submit:hover {
+   background-color: #555;
+}
+
 #contact {
    background: #191919;
    padding-top: 96px;
@@ -1770,24 +1972,13 @@ call-to-action .button {
    padding-top: 6px;
 }
 
-
 /* contact form */
 #contact form {
    margin-bottom: 30px;
 }
 
-#contact label {
-   font: 15px/24px 'opensans-bold', sans-serif;
-   margin: 12px 0;
-   color: #EBEEEE;
-   display: inline-block;
-   float: left;
-   width: 26%;
-}
-
 #contact input,
-#contact textarea,
-#contact select {
+#contact textarea {
    padding: 18px 20px;
    color: #eee;
    background: #373233;
@@ -1796,7 +1987,7 @@ call-to-action .button {
    outline: none;
    font-size: 15px;
    line-height: 24px;
-   width: 65%;
+   width: 100%;
 }
 
 #contact input:focus,
@@ -1814,9 +2005,8 @@ call-to-action .button {
    border: none;
    cursor: pointer;
    height: auto;
-   display: inline-block;
    border-radius: 3px;
-   margin-left: 26%;
+   width: 100%;
 }
 
 #contact button.submit:hover {
@@ -1835,8 +2025,7 @@ call-to-action .button {
    background: #0F0F0F;
    padding: 24px 24px;
    margin-bottom: 36px;
-   width: 65%;
-   margin-left: 26%;
+   width: 100%;
 }
 
 #message-warning {
