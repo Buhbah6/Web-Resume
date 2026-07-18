@@ -299,6 +299,7 @@ ul#nav li.current a {
 #resume {
    background: #d9e8f6;
    padding-top: 90px;
+   padding-bottom: 60px;
    overflow: hidden;
 }
 
@@ -324,6 +325,7 @@ ul#nav li.current a {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
+   margin-bottom: 30px;
 }
 
 #resume h1 span {
@@ -399,54 +401,77 @@ ul#nav li.current a {
 
 
 /*----------------------------------------------*/
-/*	Skill Bars
+/*	Skills Tables
 /*----------------------------------------------*/
 
-.bars {
+.skills-grid {
+   display: grid;
+   grid-template-columns: repeat(2, minmax(0, 1fr));
+   gap: 28px 36px;
    width: 95%;
-   float: left;
-   padding: 0;
-   text-align: left;
+   margin: 0 auto;
 }
 
-.bars .skills {
-   margin-top: 36px;
-   list-style: none;
+.skill-group {
+   display: flex;
+   flex-direction: column;
+   padding: 0 10px;
 }
 
-.bars li {
-   position: relative;
-   margin-bottom: 60px;
-   background: #ccc;
-   height: 42px;
-   border-radius: 3px;
+.skill-group h4 {
+   text-align: center;
+   min-height: 3.25em;
+   margin: 0 0 14px;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
 }
 
-.bars li em {
-   font: 15px 'opensans-bold', sans-serif;
+.skill-table {
+   width: 100%;
+   margin: 0 0 6px;
+   border-collapse: separate;
+   border-spacing: 0;
+   border: 1px solid #c7c7c7;
+   border-radius: 12px;
+   background: #ffffff;
+   table-layout: fixed;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+   overflow: hidden;
+}
+
+.skill-table td {
+   width: 50%;
+   padding: 12px 14px;
+   border: 1px solid #c7c7c7;
+   text-align: center;
+   vertical-align: middle;
+   font: 15px 'opensans-semibold', sans-serif;
    color: #313131;
-   text-transform: uppercase;
-   letter-spacing: 2px;
-   font-weight: normal;
-   position: relative;
-   top: -36px;
 }
 
-.bar-expand {
-   position: absolute;
-   left: 0;
-   top: 0;
-   margin: 0;
-   padding-right: 24px;
-   background: #313131;
-   display: inline-block;
-   height: 42px;
-   line-height: 42px;
-   border-radius: 3px 3px 3px 3px;
+.skill-table tr:first-child td:first-child {
+   border-top-left-radius: 12px;
 }
 
-.skills li em {
-   font-size: calc(12px + 0.2vw);
+.skill-table tr:first-child td:last-child {
+   border-top-right-radius: 12px;
+}
+
+.skill-table tr:last-child td:first-child {
+   border-bottom-left-radius: 12px;
+}
+
+.skill-table tr:last-child td:last-child {
+   border-bottom-right-radius: 12px;
+}
+
+.skill-table tr:nth-child(even) td {
+   background: #f6f6f6;
+}
+
+.skill-table td:empty {
+   background: #fafafa;
 }
 
 .java {
@@ -1580,6 +1605,29 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section
 /* ------------------------------------------------------------------ */
+
+#highlight {
+   background: #111;
+   padding: 72px 0 78px;
+   text-align: center;
+}
+
+#highlight .row {
+   width: 60%;
+}
+
+.highlight-content h2 {
+   font: 38px/1.2em 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 22px;
+}
+
+.spotlight-button {
+   font-size: 18px;
+   line-height: 32px;
+   padding: 16px 34px;
+   border-radius: 6px;
+}
 
 #call-to-action {
    background: #212121;

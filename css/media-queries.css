@@ -57,10 +57,23 @@
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
 
-   /* Resume Section
-   ------------------------------------------------------------------- */
-   #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
-   #resume .main-col { padding-right: 5%; }   
+   #highlight .row {
+      width: 100%;
+   }
+
+   .highlight-content h2 {
+      font-size: 30px;
+   }
+
+   .spotlight-button {
+      font-size: 16px;
+      padding: 14px 28px;
+   }
+
+      .skills-grid {
+         width: 100%;
+         grid-template-columns: 1fr;
+      }
 
    /* Testimonials Section
    ------------------------------------------------------------------- */
@@ -234,8 +247,24 @@
    #resume h1 { letter-spacing: 3px; }
    #resume .main-col { padding-right: 30px; }
    #resume h3, #resume .info { text-align: center; }
+
+   #highlight .row {
+      width: 100%;
+   }
+
+   .highlight-content h2 {
+      font-size: 28px;
+   }
+
+   .spotlight-button {
+      font-size: 15px;
+      padding: 13px 24px;
+   }
       
-   .bars { width: 100%; }
+   .skills-grid {
+      width: 100%;
+      grid-template-columns: 1fr;
+   }
 
 
    /* Call To Action Section
